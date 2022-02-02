@@ -12,5 +12,5 @@ struct Pokemon{
 function getpokemon(uint id,string memory name, string memory types) public {
     mypokemon[msg.sender][id] = Pokemon(name,types);
 }
-
+constructor() public {}
 }
