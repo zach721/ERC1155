@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
 /// @custom:security-contact zach.saviour@gmail.com
 
-contract MyToken is ERC1155, Ownable, ERC1155Burnable {
+contract PokemonERC721 is ERC1155, Ownable, ERC1155Burnable {
     uint256 nextid = 0;
     mapping(uint=>Pokemon) public mypokemon;
 
